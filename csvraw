@@ -1,0 +1,12 @@
+import codecademylib3_seaborn
+import pandas as pd
+
+df = pd.read_csv("https://geneth1kscontent.s3.eu-west-3.amazonaws.com/load/............csv", sep='\t', dtype={'rsid':'str', 'chromosome':'object', 'position':'int', 'genotype':'str'})
+    
+print(df.head())  
+  
+#for x in range(774696):
+  #if df.get_value(x, 0, takeable = True) == "rs1800629":               #print(df.get_value(x, 3, takeable = True))    
+
+# dfnunique = df.nunique()
+# print(dfnunique)
