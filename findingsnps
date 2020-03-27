@@ -1,0 +1,74 @@
+import codecademylib3_seaborn
+import pandas as pd
+
+df = pd.read_csv(".......csv", sep='\t', dtype={'rsid':'str', 'chromosome':'object', 'position':'int', 'genotype':'str'})
+    
+print(df.head())  
+  
+#for x in range(774696):
+  #if df.get_value(x, 0, takeable = True) == "rs1800629":               #print(df.get_value(x, 3, takeable = True))    
+
+# dfnunique = df.nunique()
+# print(dfnunique)
+
+sales = [rs5751876, rs182549, 46, 45, 44, 42, 40, 40, 36, 38, 38, 28, 30, 22, 27, 25, 25, 20, 15, 5]
+
+#1. CAFEÍNA Y ANSIEDAD
+#DESDE EL GEN ADORA2A, EL SNP rs5751876, Y TU GENOTIPO TT
+
+
+"rs5751876", "rs182549", "rs4988235", "rs10741657", "rs2282679", "rs5400", "rs560887", "rs573225", "rs573225", "rs10871777", "rs1121980", "rs12970134", "rs13130484", "rs1528133", "rs2229616", "rs2272382", "rs2272383", "rs6971091", "rs573225", "rs17782313", "rs573225", "rs17300539" / rs1800497 / rs1801282 / rs5082 / rs662799 ","rs1801282", "rs964184", "rs646776", "rs6511720", "rs10494366", "rs4994", "rs1801282", "rs1815739", "rs1815739", "rs28497577", "rs1143634", "rs1800629", "rs1800795", "rs13266634", "rs4880", "rs12722", "rs143383", "rs1800012", "rs2104772", "rs4747096", "rs4789932", "rs679620", "rs1138545", "rs1800012", "rs1800972", "rs17782313", "rs573225", "rs17300539" / rs1800497 / rs1801282 / rs5082 / rs662799
+
+
+
+# rs5751876, Y TU GENOTIPO TT
+for x in range(774696):
+  if df.get_value(x, 0, takeable = True) == "rs5751876":       print("rs5751876", df.get_value(x, 3, takeable = True))
+        
+# rs182549 Y rs4988235, Y TUS GENOTIPOS CT Y GA
+for x in range(774696):
+  if df.get_value(x, 0, takeable = True) == "rs182549":       print("rs182549", df.get_value(x, 3, takeable = True))
+
+for x in range(774696):
+  if df.get_value(x, 0, takeable = True) == "rs4988235":       print("rs4988235", df.get_value(x, 3, takeable = True))    
+
+# rs10741657 Y rs2282679, Y TUS GENOTIPOS AG Y TG
+for x in range(774696):
+  if df.get_value(x, 0, takeable = True) == "rs10741657":       print("rs10741657", df.get_value(x, 3, takeable = True))
+
+for x in range(774696):
+  if df.get_value(x, 0, takeable = True) == "rs2282679":       print("rs2282679", df.get_value(x, 3, takeable = True))
+
+# rs5400, Y TU GENOTIPO GA
+for x in range(774696):
+  if df.get_value(x, 0, takeable = True) == "rs5400":       print("rs5400", df.get_value(x, 3, takeable = True))
+
+# rs560887, Y TU GENOTIPO GG
+for x in range(774696):
+  if df.get_value(x, 0, takeable = True) == "rs560887":       print("rs560887", df.get_value(x, 3, takeable = True))
+
+# SNP rs573225, Y TU GENOTIPO AA
+for x in range(774696):
+  if df.get_value(x, 0, takeable = True) == "rs573225":       print("rs573225", df.get_value(x, 3, takeable = True))
+
+# rs10871777 / rs1121980 / rs12970134 / rs13130484 / rs1528133 / rs2229616 / rs2272382 / rs2272383 / rs6971091
+# rs17782313, Y TU GENOTIPO TT
+# rs17300539 / rs1800497 / rs1801282 / rs5082 / rs662799, Y TUS GENOTIPOS GG / GA / CC / AG / AA
+# rs17300539 / rs1800497 / rs1801282 / rs5082 / rs662799, Y TUS GENOTIPOS GG / GA / CC / AG / AA
+# rs1801282, Y TU GENOTIPO CC
+# rs964184, Y TU GENOTIPO CC
+# rs646776 Y rs6511720, Y TUS GENOTIPOS CT Y GG
+# 
+
+# sports
+# rs10494366, Y TU GENOTIPO TT
+# rs4994, Y TU GENOTIPO AG
+# rs1801282, Y TU GENOTIPO CC
+# rs1815739, Y TU GENOTIPO CC
+# rs1815739 Yrs28497577, Y TUS GENOTIPOS CC Y GG
+# rs1143634 / rs1800629 / rs1800795, Y TUS GENOTIPOS GG / AG / GG
+# rs1143634 / rs1800629 / rs1800795, Y TUS GENOTIPOS GG / AG / GG
+# rs13266634 Y rs4880, Y TUS GENOTIPOS CC Y GG
+# rs12722 / rs143383 / rs1800012 / rs2104772 / rs4747096 / rs4789932 / rs679620, Y TUS GENOTIPOS CC / AG / CC / TT / AG / AG / GG 
+# rs1138545 / rs1800012 / rs1800972, Y TUS GENOTIPOS CT / CC/ GC
+#
